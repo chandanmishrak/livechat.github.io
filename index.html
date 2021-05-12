@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/chat.png" type="image/x-icon">
+    <meta name="description" content="Free and open source live chat.">
+    <meta name="keywords" content="online chat, live chat, free chat">
+    <meta name="author" content="Chandan Mishra">
+    <title>oline live chat</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img src="/chat.png" alt="chat" height="40">
+            <h1>modern graded school live chat</h1>
+        </div>
+        <div class="message__area">
+            <div class="incoming"></div>
+            <div class="outgoing"></div>
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Enter your message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
